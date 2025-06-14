@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* End of CSS Normalizer */
 
-.sidebar,
+.admin-sidebar,
 button {
     background-color: #1992d4;
     color: #ffffff;
@@ -50,3 +50,25 @@ input[type="search"] {
 /*
 FOR: .card
 border-left: #e2e9f1; */
+
+.pg-container {
+    display: grid;
+    /* grid-template: ; */
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr 5fr;
+    grid-template-areas: "admin-sidebar header"
+                         "admin-sidebar dashboard";
+}
+
+.admin-sidebar {
+    grid-area: admin-sidebar;
+}
+
+.dashboard {
+    grid-area: dashboard;
+}
+
+header {
+    grid-area: header;
+}
+
