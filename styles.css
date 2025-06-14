@@ -37,3 +37,13 @@ h1, h2, h3, h4, h5, h6 {
 
 /* End of CSS Normalizer */
 
+.sidebar,
+button {
+    background-color: #1992d4;
+    color: #ffffff;
+}
+
+.dashboard,
+input[type="search"] {
+    background-color: #e2e9f1;
+}
