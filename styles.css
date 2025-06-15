@@ -85,6 +85,11 @@ border-left: #e2e9f1; */
 .project-contr {
   grid-area: projects;
 }
+.project-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.75rem;
+}
 
 .announcment-sidebar {
   grid-area: announcments
