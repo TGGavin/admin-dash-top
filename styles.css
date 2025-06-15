@@ -56,8 +56,9 @@ border-left: #e2e9f1; */
     /* grid-template: ; */
     grid-template-columns: 1fr 5fr;
     grid-template-rows: 1fr 5fr;
-    grid-template-areas: "admin-sidebar header"
-                         "admin-sidebar dashboard";
+    grid-template-areas: 
+    "admin-sidebar header"
+    "admin-sidebar dashboard";
 }
 
 .admin-sidebar {
@@ -66,6 +67,31 @@ border-left: #e2e9f1; */
 
 .dashboard {
     grid-area: dashboard;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+    grid-template-areas: 
+    "projects announcments"
+    "projects trending";
+}
+
+.card,
+.announcment-sidebar > div,
+.trending-sidebar > div {
+  background-color: #ffffff;
+}
+
+.project-board {
+  grid-area: projects;
+}
+
+.announcment-sidebar {
+  grid-area: announcments
+}
+
+.trending-sidebar {
+  grid-area: trending;
 }
 
 header {
