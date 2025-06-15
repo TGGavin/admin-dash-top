@@ -95,6 +95,8 @@ border-left: #e2e9f1; */
 }
 
 header {
-    grid-area: header;
+  grid-area: header;
+  display: grid;
+  grid-template-rows: 2fr 3fr;
+  grid-template-columns: 4fr 2fr;
 }
-
