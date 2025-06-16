@@ -88,8 +88,15 @@ border-left: #e2e9f1; */
 .project-content {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  /* grid-template-columns: repeat(auto-fit, clamp(240px, 50%, 500px)); */
   gap: 1.75rem;
 }
+.card {
+  max-width: 740px;
+  border: 1em white solid;
+  border-radius: 1em;
+}
+
 
 .announcment-sidebar {
   grid-area: announcments
