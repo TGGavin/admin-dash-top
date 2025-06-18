@@ -95,7 +95,7 @@ border-left: #e2e9f1; */
 .card {
   max-width: 740px;
   height: 200px;
-  border-left: solid 10px orange;
+  border-left: solid 10px rgb(255, 165, 0);
   border-radius: 1em;
 }
 
@@ -113,4 +113,33 @@ header {
   display: grid;
   grid-template-rows: 2fr 3fr;
   grid-template-columns: 4fr 2fr;
+}
+
+.side-btn-cntr {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 1000;
+  padding-left: 24px;
+  margin-bottom: 1.5rem;
+}
+
+.side-btn-cntr > img.svg {
+  width: 35px;
+  margin-right: 24px;
+}
+
+.side-btn-cntr:nth-of-type(1) > img.svg {
+  width: 60px;
+}
+
+.side-btn-cntr:nth-of-type(1) {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  margin-top: 16px;
+}
+
+.side-btn-cntr:nth-of-type(7) {
+  margin-bottom: 4rem;;
 }
