@@ -74,7 +74,7 @@ border-left: #e2e9f1; */
   grid-template-areas: 
   "projects announcments"
   "projects trending";
-  box-shadow: inset 0px 1px 8px 0px black;
+  box-shadow: inset 0px 1px 4px 0px black;
   padding-top: 2rem;
 }
 
@@ -216,4 +216,8 @@ nav {
   padding: 0.5rem;
   border-radius: 1rem;
   width: 160px;
+}
+
+.project-contr > h2 {
+  margin-left: 2rem;
 }
