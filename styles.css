@@ -184,3 +184,18 @@ nav {
 .svg {
   width: 35px;
 }
+
+.profile-welcome {
+  display: flex;
+  flex-direction: row;
+}
+
+.profile-welcome > img {
+  width: 90px;
+  height: 90px;
+}
+
+.profile-welcome > div {
+  display: flex;
+  flex-direction: column;
+}
