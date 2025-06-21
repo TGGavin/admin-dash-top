@@ -47,9 +47,6 @@ button {
 input[type="search"] {
   background-color: #e2e9f1;
 }
-/*
-FOR: .card
-border-left: #e2e9f1; */
 
 .pg-container {
   display: grid;
@@ -96,9 +93,21 @@ border-left: #e2e9f1; */
 }
 .card {
   max-width: 740px;
-  height: 200px;
+  height: 260px;
   border-left: solid 10px rgb(255, 165, 0);
-  border-radius: 1em;
+  border-radius: 1rem;
+  padding: 2rem;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 0px 6px -4px
+}
+
+.card-btn-tray {
+  display: inline-flex;
+  margin-top: auto;
+  justify-content: flex-end;
+  gap: 1rem;
 }
 
 .announcment-sidebar {
