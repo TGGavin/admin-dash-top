@@ -133,8 +133,29 @@ input[type="search"] {
 
 .trending-sidebar {
   grid-area: trending;
-}
+  }
 
+  .trending-sidebar > h2 {
+    margin-left: 24px;
+  }
+
+  .trending-content {
+    border-radius: 1rem;
+  }
+  .trending-content > div {
+    display: flex;
+    padding: 24px;
+    gap: 16px;
+  }
+
+  .usertag {
+    font-weight: 1000;
+    font-size: 20px;
+  }
+
+  .trend-desc {
+    font-weight: 100;
+  }
 header {
   grid-area: header;
   display: grid;
