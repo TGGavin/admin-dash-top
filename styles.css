@@ -111,7 +111,24 @@ input[type="search"] {
 }
 
 .announcment-sidebar {
-  grid-area: announcments
+  grid-area: announcments;
+}
+
+.announcment-sidebar > h2 {
+  margin-left: 24px;
+}
+
+.announcment-content {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  gap: 12px;
+  border-radius: 1rem;
+}
+
+.announcment-content > div:nth-of-type(2) {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 .trending-sidebar {
