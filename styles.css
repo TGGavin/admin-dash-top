@@ -118,6 +118,11 @@ input[type="search"] {
   margin-left: 24px;
 }
 
+.announcment-sidebar,
+.trending-sidebar {
+  margin: 24px; 
+}
+
 .announcment-content {
   display: flex;
   flex-direction: column;
