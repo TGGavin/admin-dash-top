@@ -1,5 +1,7 @@
 # admin-dash-top
 
+A practice project to get better at CSS.
+
 # credit to give
 Illustration by <a href="https://unsplash.com/@melkszr?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Esma melike Sezer</a> on <a href="https://unsplash.com/illustrations/a-vibrant-purple-jellyfish-floats-gracefully-Ad3_7hgfSiU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 
