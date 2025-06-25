@@ -37,6 +37,10 @@ h1, h2, h3, h4, h5, h6 {
 
 /* End of CSS Normalizer */
 
+body {
+  margin: 0;
+}
+
 .admin-sidebar,
 button {
   background-color: #1992d4;
@@ -49,10 +53,11 @@ input[type="search"] {
 }
 
 .pg-container {
+  height: 100vh;
   display: grid;
   /* grid-template: ; */
   grid-template-columns: 1fr 5fr;
-  grid-template-rows: 1fr 5fr;
+  /* grid-template-rows: 1fr 5fr;  */
   grid-template-areas: 
   "admin-sidebar header"
   "admin-sidebar dashboard";
@@ -66,7 +71,7 @@ input[type="search"] {
   grid-area: dashboard;
   display: grid;
   grid-template-columns: 3fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  /* grid-template-rows: 1fr 1fr; */
   /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
   grid-template-areas: 
   "projects announcments"
@@ -93,11 +98,11 @@ input[type="search"] {
 }
 .card {
   max-width: 740px;
-  height: 260px;
+  height: 200px;
   border-left: solid 10px rgb(255, 165, 0);
   border-radius: 1rem;
   padding: 2rem;
-  font-size: 18px;
+  font-size: 14px;
   display: flex;
   flex-direction: column;
   box-shadow: 2px 0px 6px -4px
@@ -120,7 +125,9 @@ input[type="search"] {
 
 .announcment-sidebar,
 .trending-sidebar {
-  margin: 24px; 
+  margin: 0px 24px 6px 24px;
+  font-size: 12px; 
+
 }
 
 .announcment-content {
@@ -149,7 +156,7 @@ input[type="search"] {
   }
   .trending-content > div {
     display: flex;
-    padding: 24px;
+    padding: 12px 24px 8px 24px;
     gap: 16px;
   }
 
@@ -230,8 +237,8 @@ nav {
 }
 
 .profile-pic {
-  width: 60px;
-  height: 60px;
+  width: 54px;
+  height: 54px;
   border-radius: 100%;
 }
 
